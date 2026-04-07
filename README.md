@@ -52,3 +52,17 @@ Once the application is running, you can access the interactive **Swagger UI** f
 | `POST` | `/api/orders/{id}/cancel` | Cancel an order |
 
 ---
+
+## 💻 How to Run Locally
+
+### Prerequisites
+* Java Development Kit (JDK) 21.
+* Maven installed (or use the included Maven wrapper).
+
+### Steps
+   ```bash
+   git clone https://github.com/tanmaymone/order-processing-system.git
+   cd order-processing-system
+   mvn clean package
+   java -jar target/peerislands_assignment-0.0.1-SNAPSHOT.jar
+
